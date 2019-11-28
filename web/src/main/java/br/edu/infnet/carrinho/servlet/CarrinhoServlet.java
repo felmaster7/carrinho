@@ -23,6 +23,8 @@ public class CarrinhoServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
+		System.out.println("=======================================Entrei============================================");
+		
 		resp.setContentType("text/html");
 		
 		String nome = req.getParameter("nome");

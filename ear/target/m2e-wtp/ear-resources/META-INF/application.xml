@@ -2,13 +2,13 @@
 <application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
   <display-name>carrinho-ear</display-name>
   <module>
+    <ejb>carrinho-ejb.jar</ejb>
+  </module>
+  <module>
     <web>
       <web-uri>carrinho-web.war</web-uri>
       <context-root>/carrinho-web</context-root>
     </web>
-  </module>
-  <module>
-    <ejb>carrinho-ejb.jar</ejb>
   </module>
   <library-directory>lib</library-directory>
 </application>
